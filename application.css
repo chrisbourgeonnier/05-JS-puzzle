@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: burlywood;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+table {
+  width: 428px;
+  border: 10px solid rgb(120, 120, 120);
+  background: black;
+}
+
+tr {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+td {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 1px;
+  background: rgb(90, 66, 66);
+  font-size: 1.5em;
+  cursor: pointer;
+  color: rgb(250, 232, 209);
+}
+
+.empty {
+  background: black;
+}
